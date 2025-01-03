@@ -7,6 +7,7 @@ const ChatApp = () => {
   const [users, setUsers] = useState(["Alice", "Bob", "Charlie"]); // List of users
   const [messages, setMessages] = useState({}); // Store messages for each user
   const [selectedUser, setSelectedUser] = useState(null);
+  const [message, setMessage] = useState("");
 
   const handleLogin = (e) => {
     e.preventDefault();
